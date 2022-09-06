@@ -1,8 +1,10 @@
-import '../styles/globals.css'
+import '../assets/styles/normalize.css';
+import '../assets/styles/globals.css';
 import type {AppProps} from 'next/app'
-import {ChakraProvider} from '@chakra-ui/react'
+
 import Layout from "../components/layout";
 import Head from "next/head";
+import {ChakraProvider} from '@chakra-ui/react';
 
 function MyApp({Component, pageProps}: AppProps) {
     return (
