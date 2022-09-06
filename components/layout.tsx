@@ -1,7 +1,9 @@
+import styles from '../assets/styles/Home.module.css';
+
 const Layout = ({children}: any) => {
     return (
         <>
-            <main>{children}</main>
+            <main className={styles.main}>{children}</main>
         </>
     )
 }
